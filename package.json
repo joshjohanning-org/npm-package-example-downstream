@@ -9,6 +9,9 @@
     "build:cjs": "NODE_ENV=production BABEL_ENV=cjs babel src --presets=./scripts/babel-preset.js --extensions .ts,.tsx --ignore src/**/*.specs.tsx --out-dir build/cjs --source-maps",
     "build:esm": "NODE_ENV=production BABEL_ENV=esm babel src --presets=./scripts/babel-preset.js --extensions .ts,.tsx --ignore src/**/*.specs.tsx --out-dir build/esm --source-maps"
   },
+  "dependencies": {
+    "@joshjohanning-org/npm-package-example": "^0.0.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
