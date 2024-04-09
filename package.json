@@ -1,6 +1,6 @@
 {
-  "name": "@joshjohanning-org/npm-package-example",
-  "version": "0.0.3",
+  "name": "@joshjohanning-org/npm-package-example-downstream",
+  "version": "1.0.0",
   "description": "Example project for TypeScript packages",
   "main": "index.js",
   "scripts": {
